@@ -27,7 +27,6 @@ int main() {
     float money = 39.4; // stores decimals
     string username = "codebeauty";
 
-
     printf("Sum = %.7f\n", 0.0003 + 0.0381);
 
     return 0;

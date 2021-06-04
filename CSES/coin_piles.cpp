@@ -8,7 +8,8 @@
 // b = 2a - 3x
 // 3x = 2a - b
 
-#include <bits/stdc++.h>
+#include <iostream>
+
 using namespace std;
 
 #define ll long long

@@ -1,7 +1,11 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string.h>
+#include <vector>
+
 using namespace std;
 
-# define ll long long
+#define ll long long
+#define ar array
 
 int main() {
   string s;
@@ -25,7 +29,7 @@ int main() {
   }
   int start=0;
   int end=n-1;
-  char solution[n+1]="";
+	vector<char> solution(n+1);
   if(odd>=0) {
     solution[n/2]=odd+'A';
     a[odd]--;
@@ -38,5 +42,6 @@ int main() {
       end--;
     }
   }
-  cout << solution << endl;
+	string answer(solution.begin(), solution.end());
+  cout << answer << endl;
 }

@@ -1,9 +1,10 @@
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include <iostream>
+#include <vector>
+
 using namespace std;
 
-#define ll long long
-
 int main() {
-  int a[10] = {0};
-  cout << a.length << endl;
+	int n;
+	cin >> n;
 }

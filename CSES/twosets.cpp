@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-
+#include <iostream>
+#include <vector>
 using namespace std;
 
 #define ll long long
@@ -24,12 +24,12 @@ int main() {
   }
   cout << "YES" << endl;
   cout << a.size() << endl;
-  for (int i : a) {
+  for (auto i : a) {
     cout << i << " ";
   }
   cout << endl;
   cout << b.size() << endl;
-  for (int i : b) {
+  for (auto i : b) {
     cout << i << " ";
   }
   cout << endl;

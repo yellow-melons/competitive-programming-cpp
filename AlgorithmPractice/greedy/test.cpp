@@ -4,7 +4,6 @@
 using namespace std;
 
 #define ll long long
-#define arr array
 #define endl '\n'
 
 int main() {

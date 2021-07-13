@@ -11,5 +11,6 @@ int main() {
 	cout << p << endl;
 	int b=p>100?-1:p<100?1:0;
 	cout << b << endl;
+	return 0;
 }
 

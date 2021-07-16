@@ -7,6 +7,6 @@ using namespace std;
 #define endl '\n'
 
 int main() {
-	int n=2;
-	arr<int, n>;
+	vector<int> s;
+	s.push_back(4);
 }

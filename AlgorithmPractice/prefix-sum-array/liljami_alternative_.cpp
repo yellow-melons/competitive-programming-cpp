@@ -24,3 +24,5 @@ int main() {
 		cout << psa[b]-psa[a-1] << endl;
 	}
 }
+
+
